@@ -6,9 +6,9 @@ COLOR_RED = \033[31m
 
 PROJECT := Lista de Commits
 
-## FIX - Rresolve um BUG.
+## FIX - Resolve um BUG.
 fix:
-	@echo "git commit -m \"FIX: commit inicial\"" > dev/nul
+	@echo "git commit -m \"FIX: commit inicial\""
 
 ## FEAT - Inicia a implementação de uma funcionalidade.
 feat:
@@ -18,18 +18,18 @@ feat:
 chore:
 	@echo "git commit -m \"CHORE: commit inicial\""
 
-## REFACTOR -  Sem mudar a lógica - REFATORAÇÃO.
+## REFACTOR - Sem mudar a lógica - Refatoração.
 refactor:
 
 	@echo "git commit -m \"REFACTOR: commit inicial\""
 
 ## TEST - Implementa testes automatizados.
 test:
-	@echo "git commit -m \"TEST: commit inicial\"" | pbcopy
+	@echo "git commit -m \"TEST: commit inicial\""
 
 ## STYLE - Mudanças de formatação do código - Lint.
 style:
-	@echo "git commit -m \"STYLE: commit inicial\"" | pbcopy
+	@echo "git commit -m \"STYLE: commit inicial\""
 
 ## PERF - Ajustes de performance.
 perf:
